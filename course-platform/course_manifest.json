@@ -1,0 +1,154 @@
+{
+  "course": {
+    "title": "Flutter Training Course",
+    "version": "1.0.0",
+    "description": "Complete Flutter development course from beginner to full-stack developer"
+  },
+  "modules": [
+    {
+      "id": "module-00",
+      "title": "Setup & First Steps",
+      "description": "Get the development environment ready and verify everything works",
+      "order": 0,
+      "lessons": [
+        {
+          "id": "00-01",
+          "title": "Installing Flutter & Dart SDK",
+          "order": 1,
+          "markdownFile": "module-00/lesson-01-installation.md"
+        },
+        {
+          "id": "00-02",
+          "title": "Setting Up Your Editor",
+          "order": 2,
+          "markdownFile": "module-00/lesson-02-editor-setup.md"
+        },
+        {
+          "id": "00-03",
+          "title": "Running Your First Hello World",
+          "order": 3,
+          "markdownFile": "module-00/lesson-03-hello-world.md"
+        },
+        {
+          "id": "00-04",
+          "title": "Understanding Emulator vs Physical Device",
+          "order": 4,
+          "markdownFile": "module-00/lesson-04-emulator-setup.md"
+        }
+      ]
+    },
+    {
+      "id": "module-03",
+      "title": "Building Layouts",
+      "description": "Master advanced layout techniques, theming, and complex UIs",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "03-01",
+          "title": "Scrollable Lists (ListView)",
+          "order": 1,
+          "markdownFile": "module-03/lesson-01-listview.md"
+        },
+        {
+          "id": "03-02",
+          "title": "Photo Grids (GridView)",
+          "order": 2,
+          "markdownFile": "module-03/lesson-02-gridview.md"
+        },
+        {
+          "id": "03-03",
+          "title": "Layering Widgets (Stack)",
+          "order": 3,
+          "markdownFile": "module-03/lesson-03-stack.md"
+        },
+        {
+          "id": "03-04",
+          "title": "Responsive Layouts",
+          "order": 4,
+          "markdownFile": "module-03/lesson-04-responsive.md"
+        },
+        {
+          "id": "03-05",
+          "title": "Creating Custom Widgets",
+          "order": 5,
+          "markdownFile": "module-03/lesson-05-custom-widgets.md"
+        },
+        {
+          "id": "03-06",
+          "title": "Advanced Scrolling Techniques",
+          "order": 6,
+          "markdownFile": "module-03/lesson-06-scrolling.md"
+        },
+        {
+          "id": "03-07",
+          "title": "App Theming with Material 3",
+          "order": 7,
+          "markdownFile": "module-03/lesson-07-theming.md"
+        },
+        {
+          "id": "03-08",
+          "title": "Mini-Project: Instagram-Style Feed",
+          "order": 8,
+          "markdownFile": "module-03/lesson-08-mini-project.md"
+        }
+      ]
+    },
+    {
+      "id": "module-10",
+      "title": "Testing",
+      "description": "Master unit testing, widget testing, mocking, integration testing, coverage, and CI/CD",
+      "order": 10,
+      "lessons": [
+        {
+          "id": "10-01",
+          "title": "Introduction to Testing",
+          "order": 1,
+          "markdownFile": "module-10/lesson-01-introduction-to-testing.md"
+        },
+        {
+          "id": "10-02",
+          "title": "Widget Testing",
+          "order": 2,
+          "markdownFile": "module-10/lesson-02-widget-testing.md"
+        },
+        {
+          "id": "10-03",
+          "title": "Mocking Dependencies",
+          "order": 3,
+          "markdownFile": "module-10/lesson-03-mocking-dependencies.md"
+        },
+        {
+          "id": "10-04",
+          "title": "Integration Testing",
+          "order": 4,
+          "markdownFile": "module-10/lesson-04-integration-testing.md"
+        },
+        {
+          "id": "10-05",
+          "title": "End-to-End Testing with Firebase Test Lab",
+          "order": 5,
+          "markdownFile": "module-10/lesson-05-end-to-end-testing-firebase-test-lab.md"
+        },
+        {
+          "id": "10-06",
+          "title": "Test Coverage and Reporting",
+          "order": 6,
+          "markdownFile": "module-10/lesson-06-test-coverage-reporting.md"
+        },
+        {
+          "id": "10-07",
+          "title": "CI/CD for Flutter Apps",
+          "order": 7,
+          "markdownFile": "module-10/lesson-07-cicd-for-flutter.md"
+        },
+        {
+          "id": "10-08",
+          "title": "Testing Best Practices Mini-Project",
+          "order": 8,
+          "markdownFile": "module-10/lesson-08-testing-best-practices-mini-project.md"
+        }
+      ]
+    }
+  ],
+  "_note": "This is a sample JSON manifest showing the course structure. Complete manifest should include all 13 modules (0-12) and all 87 lessons. For full implementation, extend this structure to include all modules."
+}
