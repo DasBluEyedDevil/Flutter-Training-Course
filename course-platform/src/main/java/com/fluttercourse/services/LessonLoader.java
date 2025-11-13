@@ -129,8 +129,12 @@ public class LessonLoader {
             "module-04", 1, "module-04/lesson-01-buttons.md"));
         module.addLesson(new Lesson("04-02", "Text Input and Forms",
             "module-04", 2, "module-04/lesson-02-textfield-forms.md"));
-        module.addLesson(new Lesson("04-03", "StatefulWidget and Managing State",
-            "module-04", 3, "module-04/lesson-04-stateful-state.md"));
+        module.addLesson(new Lesson("04-03", "Gestures and Touch Interactions",
+            "module-04", 3, "module-04/lesson-03-gestures.md"));
+        module.addLesson(new Lesson("04-04", "StatefulWidget and Managing State",
+            "module-04", 4, "module-04/lesson-04-stateful-state.md"));
+        module.addLesson(new Lesson("04-05", "Mini-Project: Interactive Notes App",
+            "module-04", 5, "module-04/lesson-05-mini-project.md"));
 
         return module;
     }
@@ -141,6 +145,16 @@ public class LessonLoader {
 
         module.addLesson(new Lesson("05-01", "Understanding State Management",
             "module-05", 1, "module-05/lesson-01-state-management-intro.md"));
+        module.addLesson(new Lesson("05-02", "Provider Deep Dive",
+            "module-05", 2, "module-05/lesson-02-provider-deep-dive.md"));
+        module.addLesson(new Lesson("05-03", "Introduction to Riverpod",
+            "module-05", 3, "module-05/lesson-03-riverpod-intro.md"));
+        module.addLesson(new Lesson("05-04", "Advanced Riverpod Patterns",
+            "module-05", 4, "module-05/lesson-04-riverpod-advanced.md"));
+        module.addLesson(new Lesson("05-05", "State Management Best Practices",
+            "module-05", 5, "module-05/lesson-05-best-practices.md"));
+        module.addLesson(new Lesson("05-06", "Mini-Project: Task Management App",
+            "module-05", 6, "module-05/lesson-06-mini-project.md"));
 
         return module;
     }
