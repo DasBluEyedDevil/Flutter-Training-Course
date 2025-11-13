@@ -37,6 +37,7 @@ public class LessonLoader {
         modules.add(createModule06());
         modules.add(createModule07());
         modules.add(createModule08());
+        modules.add(createModule09());
         // Add more modules as they are created
     }
 
@@ -230,6 +231,30 @@ public class LessonLoader {
             "module-08", 7, "module-08/lesson-07-push-notifications.md"));
         module.addLesson(new Lesson("08-08", "Mini-Project: Complete Firebase Social App",
             "module-08", 8, "module-08/lesson-08-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule09() {
+        Module module = new Module("module-09", "Advanced Features",
+            "Master animations, device sensors, maps, local storage, and background tasks", 9);
+
+        module.addLesson(new Lesson("09-01", "Introduction to Animations",
+            "module-09", 1, "module-09/lesson-01-animations.md"));
+        module.addLesson(new Lesson("09-02", "Camera and Photo Gallery",
+            "module-09", 2, "module-09/lesson-02-camera-gallery.md"));
+        module.addLesson(new Lesson("09-03", "Local Storage with Hive",
+            "module-09", 3, "module-09/lesson-03-local-storage-hive.md"));
+        module.addLesson(new Lesson("09-04", "SQLite Database",
+            "module-09", 4, "module-09/lesson-04-sqlite-database.md"));
+        module.addLesson(new Lesson("09-05", "Maps and Location",
+            "module-09", 5, "module-09/lesson-05-maps-location.md"));
+        module.addLesson(new Lesson("09-06", "Device Features (Sensors & Biometrics)",
+            "module-09", 6, "module-09/lesson-06-device-features.md"));
+        module.addLesson(new Lesson("09-07", "Background Tasks & Workmanager",
+            "module-09", 7, "module-09/lesson-07-background-tasks.md"));
+        module.addLesson(new Lesson("09-08", "Mini-Project: Fitness Tracker App",
+            "module-09", 8, "module-09/lesson-08-mini-project.md"));
 
         return module;
     }
