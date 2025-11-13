@@ -35,6 +35,7 @@ public class LessonLoader {
         modules.add(createModule04());
         modules.add(createModule05());
         modules.add(createModule06());
+        modules.add(createModule07());
         // Add more modules as they are created
     }
 
@@ -180,6 +181,30 @@ public class LessonLoader {
             "module-06", 7, "module-06/lesson-07-drawer.md"));
         module.addLesson(new Lesson("06-08", "Mini-Project: Multi-Screen Navigation App",
             "module-06", 8, "module-06/lesson-08-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule07() {
+        Module module = new Module("module-07", "Networking & API Integration",
+            "Connect your app to the internet with REST APIs, authentication, and file uploads", 7);
+
+        module.addLesson(new Lesson("07-01", "HTTP Requests and APIs",
+            "module-07", 1, "module-07/lesson-01-http-requests.md"));
+        module.addLesson(new Lesson("07-02", "JSON Parsing and Serialization",
+            "module-07", 2, "module-07/lesson-02-json-parsing.md"));
+        module.addLesson(new Lesson("07-03", "Error Handling and Loading States",
+            "module-07", 3, "module-07/lesson-03-error-handling.md"));
+        module.addLesson(new Lesson("07-04", "Authentication and Headers",
+            "module-07", 4, "module-07/lesson-04-authentication.md"));
+        module.addLesson(new Lesson("07-05", "Dio Package (Advanced HTTP Client)",
+            "module-07", 5, "module-07/lesson-05-dio-package.md"));
+        module.addLesson(new Lesson("07-06", "Pagination and Infinite Scroll",
+            "module-07", 6, "module-07/lesson-06-pagination.md"));
+        module.addLesson(new Lesson("07-07", "File Upload and Download",
+            "module-07", 7, "module-07/lesson-07-file-upload-download.md"));
+        module.addLesson(new Lesson("07-08", "Mini-Project: Social Media App",
+            "module-07", 8, "module-07/lesson-08-mini-project.md"));
 
         return module;
     }
