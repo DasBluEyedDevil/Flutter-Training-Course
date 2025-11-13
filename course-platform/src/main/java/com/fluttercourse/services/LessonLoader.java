@@ -38,7 +38,10 @@ public class LessonLoader {
         modules.add(createModule07());
         modules.add(createModule08());
         modules.add(createModule09());
-        // Add more modules as they are created
+        modules.add(createModule10());
+        modules.add(createModule11());
+        modules.add(createModule12());
+        // Course complete!
     }
 
     private Module createModule00() {
@@ -255,6 +258,42 @@ public class LessonLoader {
             "module-09", 7, "module-09/lesson-07-background-tasks.md"));
         module.addLesson(new Lesson("09-08", "Mini-Project: Fitness Tracker App",
             "module-09", 8, "module-09/lesson-08-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule10() {
+        Module module = new Module("module-10", "Testing",
+            "Master unit testing, widget testing, mocking, and test-driven development", 10);
+
+        module.addLesson(new Lesson("10-01", "Introduction to Testing",
+            "module-10", 1, "module-10/lesson-01-introduction-to-testing.md"));
+        module.addLesson(new Lesson("10-02", "Widget Testing",
+            "module-10", 2, "module-10/lesson-02-widget-testing.md"));
+        module.addLesson(new Lesson("10-03", "Mocking Dependencies",
+            "module-10", 3, "module-10/lesson-03-mocking-dependencies.md"));
+
+        return module;
+    }
+
+    private Module createModule11() {
+        Module module = new Module("module-11", "Deployment & Publishing",
+            "Prepare, build, and publish your Flutter apps to Google Play and App Store", 11);
+
+        module.addLesson(new Lesson("11-01", "Preparing for Release",
+            "module-11", 1, "module-11/lesson-01-preparing-for-release.md"));
+        module.addLesson(new Lesson("11-02", "Publishing to App Stores",
+            "module-11", 2, "module-11/lesson-02-publishing-to-stores.md"));
+
+        return module;
+    }
+
+    private Module createModule12() {
+        Module module = new Module("module-12", "Final Capstone Project",
+            "Build a complete social marketplace app combining all skills learned", 12);
+
+        module.addLesson(new Lesson("12-01", "Final Capstone Project - LocalBuy Social Marketplace",
+            "module-12", 1, "module-12/lesson-01-final-capstone-project.md"));
 
         return module;
     }
