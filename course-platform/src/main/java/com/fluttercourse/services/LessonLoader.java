@@ -108,7 +108,7 @@ public class LessonLoader {
 
     private Module createModule03() {
         Module module = new Module("module-03", "Building Layouts",
-            "Master advanced layout techniques for complex UIs", 3);
+            "Master advanced layout techniques, theming, and complex UIs", 3);
 
         module.addLesson(new Lesson("03-01", "Scrollable Lists (ListView)",
             "module-03", 1, "module-03/lesson-01-listview.md"));
@@ -122,8 +122,10 @@ public class LessonLoader {
             "module-03", 5, "module-03/lesson-05-custom-widgets.md"));
         module.addLesson(new Lesson("03-06", "Advanced Scrolling Techniques",
             "module-03", 6, "module-03/lesson-06-scrolling.md"));
-        module.addLesson(new Lesson("03-07", "Mini-Project: Instagram-Style Feed",
-            "module-03", 7, "module-03/lesson-07-mini-project.md"));
+        module.addLesson(new Lesson("03-07", "App Theming with Material 3",
+            "module-03", 7, "module-03/lesson-07-theming.md"));
+        module.addLesson(new Lesson("03-08", "Mini-Project: Instagram-Style Feed",
+            "module-03", 8, "module-03/lesson-08-mini-project.md"));
 
         return module;
     }
