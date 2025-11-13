@@ -264,7 +264,7 @@ public class LessonLoader {
 
     private Module createModule10() {
         Module module = new Module("module-10", "Testing",
-            "Master unit testing, widget testing, mocking, and test-driven development", 10);
+            "Master unit testing, widget testing, mocking, integration testing, coverage, and CI/CD", 10);
 
         module.addLesson(new Lesson("10-01", "Introduction to Testing",
             "module-10", 1, "module-10/lesson-01-introduction-to-testing.md"));
@@ -272,6 +272,16 @@ public class LessonLoader {
             "module-10", 2, "module-10/lesson-02-widget-testing.md"));
         module.addLesson(new Lesson("10-03", "Mocking Dependencies",
             "module-10", 3, "module-10/lesson-03-mocking-dependencies.md"));
+        module.addLesson(new Lesson("10-04", "Integration Testing",
+            "module-10", 4, "module-10/lesson-04-integration-testing.md"));
+        module.addLesson(new Lesson("10-05", "End-to-End Testing with Firebase Test Lab",
+            "module-10", 5, "module-10/lesson-05-end-to-end-testing-firebase-test-lab.md"));
+        module.addLesson(new Lesson("10-06", "Test Coverage and Reporting",
+            "module-10", 6, "module-10/lesson-06-test-coverage-reporting.md"));
+        module.addLesson(new Lesson("10-07", "CI/CD for Flutter Apps",
+            "module-10", 7, "module-10/lesson-07-cicd-for-flutter.md"));
+        module.addLesson(new Lesson("10-08", "Testing Best Practices Mini-Project",
+            "module-10", 8, "module-10/lesson-08-testing-best-practices-mini-project.md"));
 
         return module;
     }
