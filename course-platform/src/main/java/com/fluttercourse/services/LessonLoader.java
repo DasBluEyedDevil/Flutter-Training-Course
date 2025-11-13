@@ -39,6 +39,7 @@ public class LessonLoader {
         modules.add(createModule08());
         modules.add(createModule09());
         modules.add(createModule10());
+        modules.add(createModule11());
         // Add more modules as they are created
     }
 
@@ -270,6 +271,18 @@ public class LessonLoader {
             "module-10", 2, "module-10/lesson-02-widget-testing.md"));
         module.addLesson(new Lesson("10-03", "Mocking Dependencies",
             "module-10", 3, "module-10/lesson-03-mocking-dependencies.md"));
+
+        return module;
+    }
+
+    private Module createModule11() {
+        Module module = new Module("module-11", "Deployment & Publishing",
+            "Prepare, build, and publish your Flutter apps to Google Play and App Store", 11);
+
+        module.addLesson(new Lesson("11-01", "Preparing for Release",
+            "module-11", 1, "module-11/lesson-01-preparing-for-release.md"));
+        module.addLesson(new Lesson("11-02", "Publishing to App Stores",
+            "module-11", 2, "module-11/lesson-02-publishing-to-stores.md"));
 
         return module;
     }
