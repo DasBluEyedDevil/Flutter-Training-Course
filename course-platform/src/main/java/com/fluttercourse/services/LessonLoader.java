@@ -34,6 +34,7 @@ public class LessonLoader {
         modules.add(createModule03());
         modules.add(createModule04());
         modules.add(createModule05());
+        modules.add(createModule06());
         // Add more modules as they are created
     }
 
@@ -155,6 +156,30 @@ public class LessonLoader {
             "module-05", 5, "module-05/lesson-05-best-practices.md"));
         module.addLesson(new Lesson("05-06", "Mini-Project: Task Management App",
             "module-05", 6, "module-05/lesson-06-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule06() {
+        Module module = new Module("module-06", "Navigation & Routing",
+            "Build multi-screen apps with professional navigation patterns", 6);
+
+        module.addLesson(new Lesson("06-01", "Basic Navigation",
+            "module-06", 1, "module-06/lesson-01-basic-navigation.md"));
+        module.addLesson(new Lesson("06-02", "Named Routes",
+            "module-06", 2, "module-06/lesson-02-named-routes.md"));
+        module.addLesson(new Lesson("06-03", "Modern Navigation with GoRouter",
+            "module-06", 3, "module-06/lesson-03-go-router.md"));
+        module.addLesson(new Lesson("06-04", "Deep Linking",
+            "module-06", 4, "module-06/lesson-04-deep-linking.md"));
+        module.addLesson(new Lesson("06-05", "Bottom Navigation Bar",
+            "module-06", 5, "module-06/lesson-05-bottom-navigation.md"));
+        module.addLesson(new Lesson("06-06", "Tab Bars and TabBarView",
+            "module-06", 6, "module-06/lesson-06-tabs.md"));
+        module.addLesson(new Lesson("06-07", "Drawer Navigation",
+            "module-06", 7, "module-06/lesson-07-drawer.md"));
+        module.addLesson(new Lesson("06-08", "Mini-Project: Multi-Screen Navigation App",
+            "module-06", 8, "module-06/lesson-08-mini-project.md"));
 
         return module;
     }
