@@ -36,6 +36,7 @@ public class LessonLoader {
         modules.add(createModule05());
         modules.add(createModule06());
         modules.add(createModule07());
+        modules.add(createModule08());
         // Add more modules as they are created
     }
 
@@ -205,6 +206,30 @@ public class LessonLoader {
             "module-07", 7, "module-07/lesson-07-file-upload-download.md"));
         module.addLesson(new Lesson("07-08", "Mini-Project: Social Media App",
             "module-07", 8, "module-07/lesson-08-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule08() {
+        Module module = new Module("module-08", "Backend Integration - Firebase",
+            "Build full-stack apps with Firebase authentication, database, storage, and real-time features", 8);
+
+        module.addLesson(new Lesson("08-01", "Backend Services & Firebase Setup",
+            "module-08", 1, "module-08/lesson-01-backend-intro-firebase-setup.md"));
+        module.addLesson(new Lesson("08-02", "Firebase Authentication",
+            "module-08", 2, "module-08/lesson-02-firebase-authentication.md"));
+        module.addLesson(new Lesson("08-03", "Cloud Firestore Database",
+            "module-08", 3, "module-08/lesson-03-cloud-firestore.md"));
+        module.addLesson(new Lesson("08-04", "Cloud Storage",
+            "module-08", 4, "module-08/lesson-04-cloud-storage.md"));
+        module.addLesson(new Lesson("08-05", "Security Rules",
+            "module-08", 5, "module-08/lesson-05-security-rules.md"));
+        module.addLesson(new Lesson("08-06", "Real-Time Features",
+            "module-08", 6, "module-08/lesson-06-realtime-features.md"));
+        module.addLesson(new Lesson("08-07", "Push Notifications & Analytics",
+            "module-08", 7, "module-08/lesson-07-push-notifications.md"));
+        module.addLesson(new Lesson("08-08", "Mini-Project: Complete Firebase Social App",
+            "module-08", 8, "module-08/lesson-08-mini-project.md"));
 
         return module;
     }
