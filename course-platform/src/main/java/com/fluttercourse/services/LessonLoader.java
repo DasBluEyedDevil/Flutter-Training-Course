@@ -31,6 +31,7 @@ public class LessonLoader {
         modules.add(createModule00());
         modules.add(createModule01());
         modules.add(createModule02());
+        modules.add(createModule03());
         // Add more modules as they are created
     }
 
@@ -82,6 +83,26 @@ public class LessonLoader {
             "module-02", 1, "module-02/lesson-01-main-function.md"));
         module.addLesson(new Lesson("02-02", "Building Blocks (Widgets)",
             "module-02", 2, "module-02/lesson-02-widgets.md"));
+        module.addLesson(new Lesson("02-03", "Displaying and Styling Text",
+            "module-02", 3, "module-02/lesson-03-text-styling.md"));
+        module.addLesson(new Lesson("02-04", "Displaying Images",
+            "module-02", 4, "module-02/lesson-04-images.md"));
+        module.addLesson(new Lesson("02-05", "The Container Widget",
+            "module-02", 5, "module-02/lesson-05-containers.md"));
+        module.addLesson(new Lesson("02-06", "Arranging Widgets (Column & Row)",
+            "module-02", 6, "module-02/lesson-06-layouts.md"));
+        module.addLesson(new Lesson("02-07", "Mini-Project: Business Card App",
+            "module-02", 7, "module-02/lesson-07-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule03() {
+        Module module = new Module("module-03", "Building Layouts",
+            "Master advanced layout techniques for complex UIs", 3);
+
+        module.addLesson(new Lesson("03-01", "Scrollable Lists (ListView)",
+            "module-03", 1, "module-03/lesson-01-listview.md"));
 
         return module;
     }
