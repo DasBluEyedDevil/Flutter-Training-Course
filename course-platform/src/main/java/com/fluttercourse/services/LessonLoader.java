@@ -38,6 +38,7 @@ public class LessonLoader {
         modules.add(createModule07());
         modules.add(createModule08());
         modules.add(createModule09());
+        modules.add(createModule10());
         // Add more modules as they are created
     }
 
@@ -255,6 +256,20 @@ public class LessonLoader {
             "module-09", 7, "module-09/lesson-07-background-tasks.md"));
         module.addLesson(new Lesson("09-08", "Mini-Project: Fitness Tracker App",
             "module-09", 8, "module-09/lesson-08-mini-project.md"));
+
+        return module;
+    }
+
+    private Module createModule10() {
+        Module module = new Module("module-10", "Testing",
+            "Master unit testing, widget testing, mocking, and test-driven development", 10);
+
+        module.addLesson(new Lesson("10-01", "Introduction to Testing",
+            "module-10", 1, "module-10/lesson-01-introduction-to-testing.md"));
+        module.addLesson(new Lesson("10-02", "Widget Testing",
+            "module-10", 2, "module-10/lesson-02-widget-testing.md"));
+        module.addLesson(new Lesson("10-03", "Mocking Dependencies",
+            "module-10", 3, "module-10/lesson-03-mocking-dependencies.md"));
 
         return module;
     }
