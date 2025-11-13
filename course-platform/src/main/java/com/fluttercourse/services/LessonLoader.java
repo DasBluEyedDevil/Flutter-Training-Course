@@ -44,6 +44,10 @@ public class LessonLoader {
             "module-00", 2, "module-00/lesson-02-editor-setup.md"));
         module.addLesson(new Lesson("00-03", "Running Your First Hello World",
             "module-00", 3, "module-00/lesson-03-hello-world.md"));
+        module.addLesson(new Lesson("00-04", "Understanding Emulator vs Physical Device",
+            "module-00", 4, "module-00/lesson-04-emulator-setup.md"));
+        module.addLesson(new Lesson("00-05", "Troubleshooting Common Issues",
+            "module-00", 5, "module-00/lesson-05-troubleshooting.md"));
 
         return module;
     }
@@ -58,6 +62,14 @@ public class LessonLoader {
             "module-01", 2, "module-01/lesson-02-variables.md"));
         module.addLesson(new Lesson("01-03", "Making Decisions (if/else)",
             "module-01", 3, "module-01/lesson-03-conditionals.md"));
+        module.addLesson(new Lesson("01-04", "Repeating Actions (Loops)",
+            "module-01", 4, "module-01/lesson-04-loops.md"));
+        module.addLesson(new Lesson("01-05", "Reusable Instructions (Functions)",
+            "module-01", 5, "module-01/lesson-05-functions.md"));
+        module.addLesson(new Lesson("01-06", "Organizing Collections (Lists and Maps)",
+            "module-01", 6, "module-01/lesson-06-lists-maps.md"));
+        module.addLesson(new Lesson("01-07", "Mini-Project: Number Guessing Game",
+            "module-01", 7, "module-01/lesson-07-mini-project.md"));
 
         return module;
     }
@@ -68,6 +80,8 @@ public class LessonLoader {
 
         module.addLesson(new Lesson("02-01", "What Happens When You Run an App?",
             "module-02", 1, "module-02/lesson-01-main-function.md"));
+        module.addLesson(new Lesson("02-02", "Building Blocks (Widgets)",
+            "module-02", 2, "module-02/lesson-02-widgets.md"));
 
         return module;
     }
