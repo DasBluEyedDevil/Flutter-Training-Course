@@ -40,7 +40,8 @@ public class LessonLoader {
         modules.add(createModule09());
         modules.add(createModule10());
         modules.add(createModule11());
-        // Add more modules as they are created
+        modules.add(createModule12());
+        // Course complete!
     }
 
     private Module createModule00() {
@@ -283,6 +284,16 @@ public class LessonLoader {
             "module-11", 1, "module-11/lesson-01-preparing-for-release.md"));
         module.addLesson(new Lesson("11-02", "Publishing to App Stores",
             "module-11", 2, "module-11/lesson-02-publishing-to-stores.md"));
+
+        return module;
+    }
+
+    private Module createModule12() {
+        Module module = new Module("module-12", "Final Capstone Project",
+            "Build a complete social marketplace app combining all skills learned", 12);
+
+        module.addLesson(new Lesson("12-01", "Final Capstone Project - LocalBuy Social Marketplace",
+            "module-12", 1, "module-12/lesson-01-final-capstone-project.md"));
 
         return module;
     }
